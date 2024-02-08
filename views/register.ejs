@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inscription</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <h1>Inscription</h1>
+      <form action="/register" method="post">
+        <input type="text" name="firstName" placeholder="Prénom" required />
+        <input type="text" name="lastName" placeholder="Nom" required />
+        <input
+          type="password"
+          name="password"
+          placeholder="Mot de passe"
+          required
+        />
+        <button type="submit">S'inscrire</button>
+        <button type="reset">Effacer</button>
+      </form>
+      <p>Déjà inscrit ? <a href="/login">Connectez-vous ici</a></p>
+    </div>
+  </body>
+</html>

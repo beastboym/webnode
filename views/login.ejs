@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connexion</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <h1>Connexion</h1>
+      <form action="/login" method="post">
+        <input type="text" name="firstName" placeholder="Prénom" required />
+        <input
+          type="password"
+          name="password"
+          placeholder="Mot de passe"
+          required
+        />
+        <button type="submit">Se connecter</button>
+        <button type="reset">Effacer</button>
+      </form>
+      <p>Pas encore inscrit ? <a href="/register">Inscrivez-vous ici</a></p>
+    </div>
+  </body>
+</html>
