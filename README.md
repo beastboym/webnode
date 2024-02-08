@@ -54,3 +54,4 @@ Décrivez brièvement les principales fonctionnalités de l'application. Par exe
 
 - Inscription et connexion des utilisateurs.
 - Cryptage des mots de passe.
+  ![Capture d'écran des fonctionnalité](image/secu.png)
